@@ -8,7 +8,7 @@
 TITLE PAGE
 --------------------------------------------------------------------------------
 Project Title : Blog Generation Agent
-Submitted By  : [Your Name]
+Submitted By  : Shruti Bhoria
 Date          : April 2026
 Assignment    : AI Engineer Intern — Take-Home Technical Assignment
 
@@ -224,6 +224,9 @@ STEP 6 — GENERATE_IMAGE STATE (optional)
   a) Prompt constructed: "professional illustration of [theme], [keywords]..."
   b) DALL-E 3 API: 1792×1024, standard quality
   c) Image downloaded and saved to data/generated/
+  d)The image, for now will not generate, I tried using the SDXL lightning model, but it is heavy for my system,
+     so i could not use that, because I need a heavy GPU, but thia was free so it can be added on later with better 
+     processing power.
 
 STEP 7 — OUTPUT STATE
   a) PublisherService creates timestamped folder in data/generated/
@@ -243,7 +246,6 @@ blog_generation_agent/
 │
 ├── requirements.txt       All Python dependencies.
 ├── .env.example           Template for required API keys.
-├── VIDEO_SCRIPT.txt       Full video walkthrough script.
 ├── PROJECT_REPORT.txt     This document.
 │
 ├── src/
