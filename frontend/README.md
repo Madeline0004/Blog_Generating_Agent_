@@ -80,7 +80,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 🎨 Frontend Setup
+##  Frontend Setup
 
 ### 1. Navigate to frontend
 bash cd frontend 
@@ -96,7 +96,7 @@ http://localhost:5173
 
 ---
 
-## 🔗 Connecting Frontend & Backend
+##  Connecting Frontend & Backend
 
 Ensure API calls in frontend point to:
 
@@ -104,7 +104,7 @@ http://127.0.0.1:8000
 
 ---
 
-## ⚠️ Common Issues & Fixes
+##  Common Issues & Fixes
 
 ### 1. FastAPI not found
 bash pip install fastapi uvicorn 
@@ -128,7 +128,7 @@ python from fastapi.middleware.cors import CORSMiddleware  app.add_middleware(  
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. User inputs a topic from frontend  
 2. Frontend sends request to backend API  
@@ -154,6 +154,6 @@ Author
 
 Shruti Bhoria  
 
- If you like this project
+If you like this project
 
 Give it a star on Git
