@@ -69,7 +69,8 @@ Fill in required API keys inside .env.
 
 ###  Run backend server
 
-bash uvicorn server:app --reload 
+bash python server.py or 
+python3 server.py  
 
 Backend will run on:
 http://127.0.0.1:8000
